@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Practice Model 7 (grid and media query)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+
+
+            background-color: aqua;
+            color: black;
+            font-weight: bold;
+            padding: 25px;
+        }
+
+        ul {
+            display: inline-grid;
+            grid-template-columns: 100px 100px 100px;
+            padding: 0 20px;
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        @media (max-width: 800px) {
+            body {
+                background-color: blue;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: rgb(138, 225, 17);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home </li>
+                <li>About </li>
+                <li>Contact </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

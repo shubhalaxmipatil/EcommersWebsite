@@ -1,0 +1,34 @@
+.container{
+    background-color: bisque;
+}
+.fname{
+    background-color: aqua;
+    max-width: fit-content;
+}
+.lname{
+    background-color: rgb(174, 218, 18);
+    max-width: fit-content;
+}
+#nam,#text2{
+    background-color: aquamarine;
+    border-style: dotted;
+    
+}
+p.texts{
+    background-color: blueviolet;
+    text-align: center;
+    text-indent: 1cm;
+
+}
+div > ul{
+    text-align: center;
+    font-style: italic;
+}
+article p{
+    
+    text-align: center;
+}
+p:hover{
+    background-color: brown;
+    color: aquamarine;
+}

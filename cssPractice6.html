@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Practice Module 6 flex box </title><style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       li{
+        display: inline;
+        padding: 0px,35px;
+        font-size: 2vw;
+       }
+        header{
+            padding: 25px;
+            background-color: blue;
+            color: rgb(240, 243, 243);
+            position: sticky;
+            top: 0;
+            
+        }
+        ul{
+            padding: 20px;
+        }
+        .container{
+          min-height: 2250px;  
+          display: flex; 
+          justify-content: space-between;
+          
+        }
+      
+        .box1{
+                background-color: aqua;
+                width: 40vh;
+                height: 50vw;
+                /* float: left; */
+                
+        }
+        .box2{
+                background-color: rgb(179, 255, 0);
+                width: 40vh;
+                height: 50vw;
+                /* float: right; */
+               
+               
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>
